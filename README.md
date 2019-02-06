@@ -33,31 +33,31 @@ The remaining visualization functions produce the requested graphs on command as
 
 
 For reference the following commands were used to get the result for all questions:
->>> conn = build_nhl_database()
->>> shifts_per_game(conn, "Patrick", "Kane", "20162017")
+> conn = build_nhl_database()
+> shifts_per_game(conn, "Patrick", "Kane", "20162017")
 23.582278481012658
->>> time_per_shift(conn, "Patrick", "Kane", "20162017")
+> time_per_shift(conn, "Patrick", "Kane", "20162017")
 54.88674181427805
->>> shots_per_game(conn, "Patrick", "Kane", "20162017")
+> shots_per_game(conn, "Patrick", "Kane", "20162017")
 3.9873417721518987
->>> goals_per_game(conn, "Patrick", "Kane", "20162017")
+> goals_per_game(conn, "Patrick", "Kane", "20162017")
 0.4430379746835443
->>> shifts_per_game(conn, "Alex", "Ovechkin", "20162017")
+> shifts_per_game(conn, "Alex", "Ovechkin", "20162017")
 21.719101123595507
->>> time_per_shift(conn, "Alex", "Ovechkin", "20162017")
+> time_per_shift(conn, "Alex", "Ovechkin", "20162017")
 51.15416451112261
->>> shots_per_game(conn, "Alex", "Ovechkin", "20162017")
+> shots_per_game(conn, "Alex", "Ovechkin", "20162017")
 4.067415730337078
->>> goals_per_game(conn, "Alex", "Ovechkin", "20162017")
+> goals_per_game(conn, "Alex", "Ovechkin", "20162017")
 0.42696629213483145
->>> power_play_percentage(conn, "Washington", "Capitals", "20172018")
+> power_play_percentage(conn, "Washington", "Capitals", "20172018")
 '24.1379310345%'
->>> net_turnover_avg(conn, "Washington", "Capitals", "20172018")
+> net_turnover_avg(conn, "Washington", "Capitals", "20172018")
 -3.056603773584906
->>> visualize_player_shots_over_season(conn, "Patrick", "Kane", "20162017")
->>> visualize_player_hits_over_season(conn, "Patrick", "Kane", "20162017")
->>> visualize_player_shots_over_season(conn, "Alex", "Ovechkin", "20162017")
->>> visualize_player_hits_over_season(conn, "Alex", "Ovechkin", "20162017")
->>> visualize_team_shots_over_season(conn, "Washington", "Capitals", "20172018")
->>> visualize_team_hits_over_season(conn, "Washington", "Capitals", "20172018")
->>>
+> visualize_player_shots_over_season(conn, "Patrick", "Kane", "20162017")
+> visualize_player_hits_over_season(conn, "Patrick", "Kane", "20162017")
+> visualize_player_shots_over_season(conn, "Alex", "Ovechkin", "20162017")
+> visualize_player_hits_over_season(conn, "Alex", "Ovechkin", "20162017")
+> visualize_team_shots_over_season(conn, "Washington", "Capitals", "20172018")
+> visualize_team_hits_over_season(conn, "Washington", "Capitals", "20172018")
+>
