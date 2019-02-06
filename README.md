@@ -2,7 +2,8 @@
 coding challenge from infutor, Paul Spears
 
 Basic instruction for how to use my implemention of answers to the coding challenge:
-
+note: github prevented all data files from uploading due to size restraints, 
+  complete collection of data files can be found at https://www.kaggle.com/martinellis/nhl-game-data
 
 start a python idle and load the included "stat_analysis.py"
 before processing need to load the database to a connection: conn = build_nhl_database()
