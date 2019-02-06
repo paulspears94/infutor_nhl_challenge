@@ -2,23 +2,38 @@
 coding challenge from infutor, Paul Spears
 
 Basic instruction for how to use my implemention of answers to the coding challenge:
+
 note: github prevented all data files from uploading due to size restraints, 
   complete collection of data files can be found at https://www.kaggle.com/martinellis/nhl-game-data
 
 start a python idle and load the included "stat_analysis.py"
+
 before processing need to load the database to a connection: conn = build_nhl_database()
 
 now a variety of commands can be run to get statistics on the data, commands are of the form as follows:
+
+
+
 shifts_per_game(conn, player_first_name, player_last_name, season)
+
 time_per_shift(conn, player_first_name, player_last_name, season)
+
 shots_per_game(conn, player_first_name, player_last_name, season)
+
 goals_per_game(conn, player_first_name, player_last_name, season)
+
 power_play_percentage(conn, team_location, team_mascot, season)
+
 net_turnover_avg(conn, team_location, team_mascot, season)
+
 visualize_player_shots_over_season(conn, player_first_name, player_last_name, season)
+
 visualize_player_hits_over_season(conn, player_first_name, player_last_name, season)
+
 visualize_team_shots_over_season(conn, team_location, team_mascot, season)
+
 visualize_team_hits_over_season(conn, team_location, team_mascot, season)
+
 
 
 the first 4 functions provide direct answers to question 1.
